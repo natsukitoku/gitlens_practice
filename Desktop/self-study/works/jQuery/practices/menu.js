@@ -19,3 +19,10 @@ $(function() {
     console.log(text);
   })
 })
+
+$(document).ready(function() {
+$('p').attr('id', 'text');
+const result = $('p').attr('id')
+
+  console.log(result); 
+});
