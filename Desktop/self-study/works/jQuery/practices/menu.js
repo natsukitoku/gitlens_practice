@@ -26,3 +26,7 @@ const result = $('p').attr('id')
 
   console.log(result); 
 });
+
+const result = $('p').removeAttr('class');
+
+console.log(result[0]);
